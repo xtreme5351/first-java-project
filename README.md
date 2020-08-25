@@ -3,6 +3,7 @@ Literally just a respitory for my first java project, which is just a simple cal
 
 I might update it whenever, but most likely, I'm done with this brief project.
 It was just a simple way for me to get to know the basic functions and methods around java.
+
 Sorry if it commits any sins in java
 
 Ty :D
