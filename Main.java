@@ -48,11 +48,14 @@ public class Main{
   }
 
   private int sub(int[] arr, int loops){
-    int total = 0;
+    int total = arr[0];
     for (int i: arr){
-      total = total - i;
+      if (total != i){
+        total = total - i;
+      }
     }
-    return total + (5 - loops);
+    total = (loops == 1) ? total + 1 : (total + (5 - loops));
+    return total;
   }
 
   private int div(int[] arr){
